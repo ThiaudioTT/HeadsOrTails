@@ -1,10 +1,19 @@
-As jogadas devem se manter em 50%, mas quando se joga menos o resultado as vezes eh 20% 19, por ai.
+# Heads Or Tails
 
-Todo:
+This repo is a simple script that flips a coin X times and shows the ratio of numbers of heads/tails by times flipped in percentage.
 
-Note:
+I created this repo due to an good book called "How Not to Be Wrong: The Power of Mathematical Thinking" by Jordan Ellenberg where he tells that the initial results of flipping a coin are not 50% heads and 50% tails. But, the more you flip, the more the result will be close to 50%.
 
-When you flip like 15. Probably 66% of them are head
-when you flip like 1000. Probably 50% of them are head/
+PS: Something like that, I don't remember the exact words.
 
-Did you see? 50% is the result of 1000 flips. But 66% is the result of 15 flips. So, the more you flip, the more the result will be close to 50%.
+This script is a simple way to test this "theory". I hope you enjoy it.
+
+## How to run
+
+With clojure installed, run:
+
+```bash
+clj -M main.clj
+```
+
+![Marisa](https://cdn.donmai.us/original/6f/80/__kirisame_marisa_touhou_drawn_by_necro_nekurodayo__6f80e20eef99bf9f7f3ed2bfa610f034.jpg)
