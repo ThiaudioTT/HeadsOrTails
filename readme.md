@@ -1,6 +1,6 @@
 # Heads Or Tails
 
-This repo is a simple script that flips a coin X times and shows the ratio of numbers of heads/tails by times flipped in percentage.
+This repo is a simple script that flips a coin X times and shows the ratio of heads/tails by times flipped in percentage.
 
 I created this repo due to an good book called "How Not to Be Wrong: The Power of Mathematical Thinking" by Jordan Ellenberg where he tells that the initial results of flipping a coin are not 50% heads and 50% tails. But, the more you flip, the more the result will be close to 50%.
 
