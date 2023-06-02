@@ -16,4 +16,5 @@ With clojure installed, run:
 clj -M main.clj
 ```
 
-![Marisa](https://cdn.donmai.us/original/6f/80/__kirisame_marisa_touhou_drawn_by_necro_nekurodayo__6f80e20eef99bf9f7f3ed2bfa610f034.jpg)
+<img src="https://cdn.donmai.us/original/6f/80/__kirisame_marisa_touhou_drawn_by_necro_nekurodayo__6f80e20eef99bf9f7f3ed2bfa610f034.jpg"
+width="250px">
