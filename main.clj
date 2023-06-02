@@ -18,7 +18,10 @@
     (flip-coin)
     (+ (flip-coin) (flip-till-x (dec x)))))
 
-(defn percentageOfFlips [nFaces timesFlipped] (/ nFaces timesFlipped))
+(defn percentageOfFlips
+  "Return a formatted percentage of flips by head/tail"
+  [nFaces timesFlipped]
+  (format "%.2f%%" (* (/ nFaces (float timesFlipped)) 100)))
 
 
 (println "Your result" (percentageOfFlips (flip-till-x qtdFlips) qtdFlips))
